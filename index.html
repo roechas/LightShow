@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style="background-color:green;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center>
+	<title>Merry Christmas</title>
+	<style>
+	  .video-container {
+		position: relative;
+		overflow: hidden;
+	  }
+
+	  .video-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	  }
+
+	  /* Default size for mobile (responsive) */
+	  .video-container {
+		padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+		max-width: 100%;
+	  }
+
+	  /* Fixed size for desktop */
+	  @media (min-width: 1024px) {
+		.video-container {
+		  padding-bottom: 0;
+		  width: 960px; /* Fixed width */
+		  height: 540px; /* Fixed height (16:9 aspect ratio) */
+		  margin: 0 auto; /* Center the player */
+		}
+	  }
+	</style>
+</head>
+<body>
+    <h1 style="color:red;">Merry Christmas</h1>
+    <center>
+	<div class="video-container">
+		<iframe 
+			src="https://www.youtube.com/embed/tgbNymZ7vqY"
+			<!-- src="https://www.youtube.com/embed/tgbNymZ7vqY" -->
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen>
+		</iframe>
+	</div>
+	<P>
+	Select a song from the list below.	
+	<P>
+	<iframe src="https://lightsonjeffery.remotefalcon.com/remote-falcon" width="100%" height="500px" style="border: none;"></iframe>
+</body>
+</html>
